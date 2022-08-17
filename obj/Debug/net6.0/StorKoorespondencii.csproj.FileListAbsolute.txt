@@ -1,0 +1,198 @@
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.exe
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.deps.json
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.runtimeconfig.json
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.pdb
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Castle.Core.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.csproj.AssemblyReference.cache
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.AssemblyInfoInputs.cache
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.AssemblyInfo.cs
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.csproj.CoreCompileInputs.cache
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.csproj.CopyComplete
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\refint\StorKoorespondencii.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.pdb
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.genruntimeconfig.cache
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\obj\Debug\net6.0\ref\StorKoorespondencii.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Downloads\Soft\C# DB\ADO.NET exercise\StorKoorespondencii\StorKoorespondencii\bin\Debug\net6.0\Data\appsettings.json
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.exe
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Data\appsettings.json
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.deps.json
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.runtimeconfig.json
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\StorKoorespondencii.pdb
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.csproj.AssemblyReference.cache
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.AssemblyInfoInputs.cache
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.AssemblyInfo.cs
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.csproj.CoreCompileInputs.cache
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.csproj.CopyComplete
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\refint\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.pdb
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\StorKoorespondencii.genruntimeconfig.cache
+C:\Users\Georgi\Documents\GitHub\GStore\StorKoorespondencii\obj\Debug\net6.0\ref\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\StorKoorespondencii.exe
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Data\appsettings.json
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\StorKoorespondencii.deps.json
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\StorKoorespondencii.runtimeconfig.json
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\StorKoorespondencii.pdb
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georgi\Documents\GitHub\GStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.csproj.AssemblyReference.cache
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.AssemblyInfoInputs.cache
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.AssemblyInfo.cs
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.csproj.CoreCompileInputs.cache
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.csproj.CopyComplete
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\refint\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.pdb
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\StorKoorespondencii.genruntimeconfig.cache
+C:\Users\Georgi\Documents\GitHub\GStore\obj\Debug\net6.0\ref\StorKoorespondencii.dll
