@@ -1,11 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Data.SqlClient;
+using Newtonsoft.Json;
 using StorKoorespondencii.Data;
 using StorKoorespondencii.DataProcessing.Dto.Export;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Data;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace StorKoorespondencii.DataProcessing
 {
@@ -82,6 +80,7 @@ namespace StorKoorespondencii.DataProcessing
                     Console.WriteLine($"{String.Format("{0,-43}", user.UserName + " - No correspondences")}");
                     Console.ForegroundColor = ConsoleColor.Gray;
                     Console.WriteLine(new string('-', 43));
+                    continue;
                 }
 
                 if (user.Correspondences.Length>0)
@@ -168,6 +167,7 @@ namespace StorKoorespondencii.DataProcessing
                     Console.WriteLine($"{String.Format("{0,-43}", user.UserName + " - No correspondences")}");
                     Console.ForegroundColor = ConsoleColor.Gray;
                     Console.WriteLine(new string('-', 43));
+                    continue;
                 }
 
                 if (user.Correspondences.Length > 0)
@@ -186,6 +186,84 @@ namespace StorKoorespondencii.DataProcessing
         public static string AddCorrespondenceToUser(StoreDbContext context, string userName) 
         {
             return "";
+        }
+
+        public static string UpdatePermUserName(StoreDbContext context, string userName)
+        {
+            int userId = -1;
+
+            try
+            {
+                userId = context.Login.Where(u => u.SUName == userName).Select(u => u.SUid).First();
+            }
+            catch (Exception)
+            {
+
+                return "Няма такъв потребител";
+            }
+
+            string sql =
+                $"EXEC [dbo].[up_SetUPermID_User] @SUid";
+
+            string result=string.Empty;
+
+            using (SqlConnection conn = new SqlConnection(Configuration.ConnectionString))
+            {
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.Parameters.Add("@SUid", SqlDbType.VarChar);
+                cmd.Parameters["@SUid"].Value = userId;
+                try
+                {
+                    conn.Open();
+                    result = (string)cmd.ExecuteScalar();
+                }
+                catch (Exception ex)
+                {
+                    return (ex.Message);
+                }
+            }
+            return $"Права на потребител {userName} са обновени";
+        }
+
+        public static void UpdatePermAllUsers (StoreDbContext context)
+        {
+            int[] userIds = context
+                .Login
+                .Select(u => u.SUid)
+                .ToArray();
+
+            string sql =
+                $"EXEC [dbo].[up_SetUPermID_User] @SUid";
+
+            if (userIds.Length > 0)
+            {
+                string result = string.Empty;
+
+                using (SqlConnection conn = new SqlConnection(Configuration.ConnectionString))
+                {
+                    try
+                    {
+                        conn.Open();
+
+                        foreach (var id in userIds)
+                        {
+                            SqlCommand cmd = new SqlCommand(sql, conn);
+                            cmd.Parameters.Add("@SUid", SqlDbType.VarChar);
+                            cmd.Parameters["@SUid"].Value = id;
+                        
+                            result = (string)cmd.ExecuteScalar();
+                        }
+                                
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                }           
+                    
+            }
+            Console.WriteLine("Всички права обновени!");
+            
         }
     }
 }

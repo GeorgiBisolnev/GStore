@@ -4,6 +4,7 @@
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using StorKoorespondencii.Data.Models;
+    using StorKoorespondencii.DataProcessing;
 
     public class StoreDbContext : DbContext
     {
@@ -14,6 +15,8 @@
         
         }
 
+        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -23,6 +26,7 @@
                     .Build();
 
                 var connectionString = configuration.GetConnectionString("StoreConnectionString");
+                Configuration.ConnectionString = connectionString;
                 optionsBuilder.UseSqlServer(connectionString);
             }            
         }
@@ -30,7 +34,7 @@
         public DbSet<User> Login { get; set; }
         public DbSet<UserPermition> USCCPerm { get; set; }
 
-
+        public DbSet<SpResults> Sp_SetUpPermUserId { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
