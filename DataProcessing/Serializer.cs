@@ -1,6 +1,8 @@
 ﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using StorKoorespondencii.Data;
+using StorKoorespondencii.Data.Models;
 using StorKoorespondencii.DataProcessing.Dto.Export;
 using System.Data;
 using System.Text;
@@ -99,7 +101,7 @@ namespace StorKoorespondencii.DataProcessing
         public static string AllCorrespondeceTable(StoreDbContext context, string username, bool notUniqueUser = true)
         {
 
-            string json = ExportAllCorrespondenceJson(context);
+            //string json = ExportAllCorrespondenceJson(context);
 
 
             var sb = new StringBuilder();
@@ -183,9 +185,32 @@ namespace StorKoorespondencii.DataProcessing
             return sb.ToString().Trim();
         }
 
-        public static string AddCorrespondenceToUser(StoreDbContext context, string userName) 
+        public static string AddCorrespondenceToUser(StoreDbContext context, int userId, string Kt, string Dt, string Dot) 
         {
-            return "";
+            
+            var maxID = context.USCCPerm.Max(c => c.ID) + 1;
+            var permisionToAdd = new UserPermition()
+            {
+                SUid = userId,
+                SCCtCode = Kt,
+                SDOTCode = Dot,
+                SCDtCode = Dt,
+                ve_SDoc = 1,
+                v_SDoc = 1,
+                vc_Price =1,
+                ve_ISDocDt = 1,
+                ve_ISDocCt =1,
+                can_Block = 1,
+                can_Unblock = 1,
+                ID = maxID
+            };
+
+            context.Add(permisionToAdd);
+
+            context.SaveChanges();
+
+            string userName = context.Login.Where(u=>u.SUid==userId).Select(u=>u.SUName).First();
+            return $"Въведени права за потребител {userName}, Дт код [{Dt}] Кт код [{Kt}] Тип документ [{Dot}]";
         }
 
         public static string UpdatePermUserName(StoreDbContext context, string userName)
@@ -264,6 +289,35 @@ namespace StorKoorespondencii.DataProcessing
             }
             return "Всички права на потребителите са обновени!";
             
+        }
+
+        public static string DeletePermUserName(StoreDbContext context, string username)
+        {
+            var userId = context.Login.Where(u => u.SUName == username).Select(u => u.SUid).FirstOrDefault();
+
+            if (userId==0)
+            {
+                return "Не съществува потребител с подаденото име";
+            }
+
+            var PermIds = context.USCCPerm.Where(p => p.SUid == userId).Select(s=>s.ID).ToArray();
+
+
+            List<UserPermition> permisionsToRemove = new List<UserPermition>();
+
+            foreach (var per in PermIds)
+            {
+                UserPermition up = new UserPermition();
+
+                up.ID = per;
+
+                permisionsToRemove.Add(up);
+            }
+
+            context.RemoveRange(permisionsToRemove);
+            context.SaveChanges();
+
+            return $"Правата на потребител {username} са изтрити!";
         }
     }
 }

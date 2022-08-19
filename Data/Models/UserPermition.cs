@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StorKoorespondencii.Data.Models
 {
@@ -26,5 +22,22 @@ namespace StorKoorespondencii.Data.Models
 
         public string SDOTCode { get; set; }
 
+        public int? SDSTid { get; set; }
+
+        public byte ve_SDoc { get; set; }
+
+        public byte v_SDoc { get; set; }
+
+        public byte vc_Price { get; set; }
+
+        public byte ve_ISDocDt { get; set; }
+
+        public byte ve_ISDocCt { get; set; }
+
+        public byte? can_Block { get; set; }
+
+        public int? can_Unblock  { get; set; }
+
+        public int? RoleID { get; set; }
     }
 }
