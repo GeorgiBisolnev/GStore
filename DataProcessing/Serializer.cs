@@ -60,7 +60,7 @@ namespace StorKoorespondencii.DataProcessing
 
             if (users.Length == 0)
             {
-                return "";
+                return "Няма потребители за показване";
             }
 
             Console.WriteLine(new string('-', 43));
@@ -225,7 +225,7 @@ namespace StorKoorespondencii.DataProcessing
             return $"Права на потребител {userName} са обновени";
         }
 
-        public static void UpdatePermAllUsers (StoreDbContext context)
+        public static string UpdatePermAllUsers (StoreDbContext context)
         {
             int[] userIds = context
                 .Login
@@ -257,12 +257,12 @@ namespace StorKoorespondencii.DataProcessing
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex.Message);
+                        return "Грешка при обновяване на права на потребител\n" + ex.Message;
                     }
                 }           
                     
             }
-            Console.WriteLine("Всички права обновени!");
+            return "Всички права на потребителите са обновени!";
             
         }
     }

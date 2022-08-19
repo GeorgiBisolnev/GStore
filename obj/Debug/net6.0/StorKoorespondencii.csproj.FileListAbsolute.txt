@@ -262,3 +262,4 @@ C:\Users\Georgi\Documents\GitHub\GStore\GStore\obj\Debug\net6.0\refint\StorKoore
 C:\Users\Georgi\Documents\GitHub\GStore\GStore\obj\Debug\net6.0\StorKoorespondencii.pdb
 C:\Users\Georgi\Documents\GitHub\GStore\GStore\obj\Debug\net6.0\StorKoorespondencii.genruntimeconfig.cache
 C:\Users\Georgi\Documents\GitHub\GStore\GStore\obj\Debug\net6.0\ref\StorKoorespondencii.dll
+C:\Users\Georgi\Documents\GitHub\GStore\GStore\bin\Debug\net6.0\Slack.Webhooks.dll

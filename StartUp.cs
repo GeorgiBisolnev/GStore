@@ -9,7 +9,7 @@
     {
         public static void Main()
         {
-
+            SlackMessageLog log = new SlackMessageLog();
             var context = new StoreDbContext();
 
             string command = "n";
@@ -34,6 +34,7 @@
                 {
 
                     Console.WriteLine("Грешна команда!");
+                    log.CreateMessage(e.ToString());
                 }
                 
                 string result = "";
@@ -47,7 +48,7 @@
                     Console.Write("Име на потребител: ");
                     string user = Console.ReadLine();
 
-                    result = Serializer.AllCorrespondeceTable(context, user, true);
+                    result = Serializer.AllCorrespondeceTable(context, user, false);
                 }
 
                 if (choice == 3)
@@ -55,7 +56,7 @@
                     Console.Write("Име на потребител: ");
                     string user = Console.ReadLine();
 
-                    result = Serializer.AllCorrespondeceTable(context, user, false);
+                    result = Serializer.AllCorrespondeceTable(context, user, true);
                 }
 
                 if (choice == 4)
@@ -68,10 +69,13 @@
 
                 if (choice==5)
                 {
-                    Serializer.UpdatePermAllUsers(context);
+                    result = Serializer.UpdatePermAllUsers(context);                    
                 }
 
                 Console.WriteLine(result=="" ? "no result" : result);
+
+                log.CreateMessage(result);
+
                 Console.WriteLine("Exit Y/N");
 
                 command = Console.ReadLine();

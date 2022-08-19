@@ -744,6 +744,19 @@
           }
         }
       },
+      "Slack.Webhooks/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.3/Slack.Webhooks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Slack.Webhooks.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3224,6 +3237,20 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Slack.Webhooks/1.1.5": {
+      "sha512": "+HS0qIgJ1Mbcl9pabAtti1A4ITUthUi3wABpYrSHZwgRVf9T6yap1yPEiU3y1lM64zwwSicbF+iOC66wg91BWw==",
+      "type": "package",
+      "path": "slack.webhooks/1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/slack.png",
+        "lib/net45/Slack.Webhooks.dll",
+        "lib/netstandard1.3/Slack.Webhooks.dll",
+        "slack.webhooks.1.1.5.nupkg.sha512",
+        "slack.webhooks.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -7094,7 +7121,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
       "Microsoft.Extensions.Configuration >= 6.0.1",
       "Microsoft.Extensions.Configuration.Json >= 6.0.0",
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "Slack.Webhooks >= 1.1.5"
     ]
   },
   "packageFolders": {
@@ -7159,6 +7187,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Slack.Webhooks": {
+            "target": "Package",
+            "version": "[1.1.5, )"
           }
         },
         "imports": [

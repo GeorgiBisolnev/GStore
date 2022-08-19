@@ -63,6 +63,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Slack.Webhooks": {
+              "target": "Package",
+              "version": "[1.1.5, )"
             }
           },
           "imports": [
