@@ -11,14 +11,15 @@
         {
             SlackMessageLog log = new SlackMessageLog();
             log.CreateMessage("Hello there...");
-            var context = new StoreDbContext();
+            
 
             string command = "n";
             
 
             while (command.ToLower() == "n") 
             {
-                
+                var context = new StoreDbContext();
+
                 Console.WriteLine("Меню");
                 Console.WriteLine("1. Показване на всички кореспондеции");
                 Console.WriteLine("2. Показване на кореспондеции за конкретен потребител");
@@ -98,7 +99,7 @@
                         Console.Write("Тип док: ");
                         string DokCode = Console.ReadLine();
 
-                        result = Serializer.AddCorrespondenceToUser(context, userId, KtCode, DtCode, DokCode);
+                        result = Serializer.AddCorrespondenceToUser(context, userId, KtCode, DtCode, DokCode);                        
                     }
 
                 }
@@ -116,9 +117,8 @@
                         result = "Не може да се добавят права на несъществуващ потребител";
                     }
                     else
-                    {
-                        StoreDbContext contextDelete = new StoreDbContext();
-                        result = Serializer.DeletePermUserName(contextDelete, username);
+                    {                       
+                        result = Serializer.DeletePermUserName(context, username);                        
                     }
                         
                 }
@@ -128,7 +128,7 @@
                 log.CreateMessage(result);
 
                 Console.WriteLine("Exit Y/N");
-
+                context.Dispose();
                 command = Console.ReadLine();
 
             } 
