@@ -5,10 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace StorKoorespondencii.Data.Models
 {
     public class UserPermition
-    {
-        [Key]
-        public int ID { get; set; }
-
+    {      
         [Required]
         [ForeignKey(nameof(User))]
         public int SUid { get; set; }
@@ -36,7 +33,10 @@ namespace StorKoorespondencii.Data.Models
 
         public byte? can_Block { get; set; }
 
-        public int? can_Unblock  { get; set; }
+        public byte? can_Unblock  { get; set; }
+
+        [Key]
+        public int ID { get; set; }
 
         public int? RoleID { get; set; }
     }

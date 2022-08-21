@@ -6,6 +6,7 @@ using StorKoorespondencii.Data.Models;
 using StorKoorespondencii.DataProcessing.Dto.Export;
 using System.Data;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace StorKoorespondencii.DataProcessing
 {
@@ -15,6 +16,7 @@ namespace StorKoorespondencii.DataProcessing
         {
             var output = context
                     .Login
+                    .OrderBy(u=>u.SDid)
                     .Select(l => new
                     {
                         Username = l.SUName,
@@ -25,7 +27,7 @@ namespace StorKoorespondencii.DataProcessing
                             DotCode =p.SDOTCode
                         })
                         .ToArray()
-                    })
+                    })                    
                     .ToArray();
 
 
@@ -187,8 +189,13 @@ namespace StorKoorespondencii.DataProcessing
 
         public static string AddCorrespondenceToUser(StoreDbContext context, int userId, string Kt, string Dt, string Dot) 
         {
+            int maxID = 1;
+
+            if (context.USCCPerm.Any())
+            {
+                maxID = context.USCCPerm.Max(c => c.ID) + 1;
+            }
             
-            var maxID = context.USCCPerm.Max(c => c.ID) + 1;
             var permisionToAdd = new UserPermition()
             {
                 SUid = userId,
@@ -204,6 +211,17 @@ namespace StorKoorespondencii.DataProcessing
                 can_Unblock = 1,
                 ID = maxID
             };
+
+            bool existCorrespondence = context
+                .USCCPerm
+                .Where(u => u.SUid == userId)
+                .ToArray()
+                .Any(p => CompareUserPermitionValue(p, permisionToAdd));
+
+            if (existCorrespondence)
+            {
+                return "Потребителя вече има такава кореспонденция. Не бяха добавени нове кореспонденции!";
+            }
 
             context.Add(permisionToAdd);
 
@@ -319,5 +337,117 @@ namespace StorKoorespondencii.DataProcessing
 
             return $"Правата на потребител {username} са изтрити!";
         }
+
+        public static string AddKtDotToUserName(StoreDbContext context, string username, string Kt, string Dot)
+        {
+            var userId = context.Login.Where(u => u.SUName == username).Select(u => u.SUid).FirstOrDefault();
+
+            if (userId == 0)
+            {
+                return "Не може да се добавят права на несъществуващ потребител";
+            }
+
+            AddKtDotToUserID(context, userId, Kt, Dot);
+
+            string result = AllCorrespondeceTable(context, username, false);
+            return $"{result}\n\nДобавени права към потребител {username} за всичките му текущи зевена до които има достъп\n";
+        }
+
+        public static string AddKtDotToAllUsers(StoreDbContext context, string Kt, string Dot)
+        {
+            var listAllUserIds = context.Login.Where(u=>u.SDid==2).Select(u=>u.SUid).ToArray();
+
+            foreach (var user in listAllUserIds)
+            {
+                AddKtDotToUserID(context, user, Kt, Dot);
+            }
+
+            return $"Добавени Кт код {Kt} и Док код {Dot} на всички потребители в департамент ОТДЕЛЕНИЕ!";
+        }
+
+        private static bool CompareUserPermitionValue(UserPermition u1, UserPermition u2)
+        {
+            if (u1.SUid==u2.SUid &&
+                    u1.SCDtCode == u2.SCDtCode &&
+                    u1.SCCtCode == u2.SCCtCode &&
+                    u1.SDOTCode == u2.SDOTCode)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private static void AddKtDotToUserID(StoreDbContext context, int userId, string Kt, string Dot)
+        {            
+            var currentDtPermUser = context
+                .USCCPerm
+                .Where(p => p.SUid == userId)
+                .Select(p => p.SCDtCode)
+                .ToArray();
+
+            //if (!context.SCharger.Any(c => c.SCCode == Kt))
+            //{
+            //    return false;
+            //}
+
+            //if (!context.DotType.Any(d => d.SDOTCode == Dot))
+            //{
+            //    return false;
+            //}
+
+            List<string> allDtPerUser = new List<string>();
+
+            foreach (var perm in currentDtPermUser)
+            {
+                var perListToAddinAll = context
+                    .SCharger
+                    .Where(c => c.SCCode.Contains(Regex.Replace(perm, "%", "")))                    
+                    .Select(c => c.SCCode)
+                    .ToList();
+
+                foreach (var innerPerm in perListToAddinAll)
+                {
+                    allDtPerUser.Add(innerPerm);
+                }
+
+            }
+
+            var uniqueDtPerUser = allDtPerUser.Distinct();
+
+            List<UserPermition> userPErmitionToAddContext = new List<UserPermition>();
+
+            List<UserPermition> AllUserPerm = context.USCCPerm.Where(u => u.SUid == userId).ToList();
+
+            var maxID = context.USCCPerm.Max(c => c.ID);
+            foreach (var Dt in uniqueDtPerUser)
+            {
+                var currUserPerm = new UserPermition()
+                {
+                    SCDtCode = Dt,
+                    SCCtCode = Kt,
+                    SDOTCode = Dot,
+                    SUid = userId,
+                    ve_SDoc = 1,
+                    v_SDoc = 1,
+                    vc_Price = 1,
+                    ve_ISDocDt = 1,
+                    ve_ISDocCt = 1,
+                    can_Block = 1,
+                    can_Unblock = 1,
+                    ID = ++maxID
+                };
+
+                if (!AllUserPerm.Any(p => CompareUserPermitionValue(p, currUserPerm)))
+                {
+                    userPErmitionToAddContext.Add(currUserPerm);
+                }
+            }
+
+            context.AddRange(userPErmitionToAddContext);
+            context.SaveChanges();
+            
+        }
+
     }
 }

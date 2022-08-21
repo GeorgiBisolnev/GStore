@@ -33,6 +33,8 @@
 
         public DbSet<User> Login { get; set; }
         public DbSet<UserPermition> USCCPerm { get; set; }
+        public DbSet<Charger> SCharger { get; set; }
+        public DbSet<SDOType> SDOType { get; set; }
 
         public DbSet<SpResults> Sp_SetUpPermUserId { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

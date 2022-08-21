@@ -11,7 +11,7 @@
         {
             SlackMessageLog log = new SlackMessageLog();
             log.CreateMessage("Hello there...");
-            
+
 
             string command = "n";
             
@@ -28,6 +28,9 @@
                 Console.WriteLine("5. Обновяване на правата на на ВСИЧКИ потребители");
                 Console.WriteLine("6. Добавяне на права на потребител");
                 Console.WriteLine("7. Изтриване на всички права на потребител");
+                Console.WriteLine("8. Добавяне на права за нов склад и документ на потребител само до разходни звена до които вече има достъп на конкретен Потребител");
+                Console.WriteLine("9. Добавяне на права за нов склад и документ само до разходни звена до които вече има достъп за ВСИЧКИ потребители в департамент ОТДЕЛЕНИЕ");
+
 
 
                 int choice = 0;
@@ -99,7 +102,8 @@
                         Console.Write("Тип док: ");
                         string DokCode = Console.ReadLine();
 
-                        result = Serializer.AddCorrespondenceToUser(context, userId, KtCode, DtCode, DokCode);                        
+                        result = Serializer.AddCorrespondenceToUser(context, userId, KtCode, DtCode, DokCode);
+                              
                     }
 
                 }
@@ -123,6 +127,64 @@
                         
                 }
 
+                if (choice==8)
+                {
+                    Console.Write("Име на потребител: ");
+
+                    string username = Console.ReadLine();
+
+                    var userId = context.Login.Where(u => u.SUName == username).Select(u => u.SUid).FirstOrDefault();
+
+                    if (userId == 0)
+                    {
+                        result = "Не може да се добавят права на несъществуващ потребител";
+                    }
+                    else
+                    {                        
+                        Console.Write("Кт код: ");
+                        string KtCode = Console.ReadLine();
+                        Console.Write("Тип док: ");
+                        string DokCode = Console.ReadLine();
+
+                        if (!context.SCharger.Any(c => c.SCCode == KtCode))
+                        {
+                            result = $"Не съществува звено с код {KtCode}";
+                        }
+                        else if (!context.SDOType.Any(d => d.SDOTCode == DokCode))
+                        {
+                            result = $"Не съществува документ с код {DokCode}";
+                        }
+                        else
+                        {
+                            result = Serializer.AddKtDotToUserName(context, username, KtCode, DokCode);
+                        }                       
+                    }
+                        
+                }
+
+                if (choice ==9)
+                {
+                    Console.Write("Кт код: ");
+                    string KtCode = Console.ReadLine();
+                    Console.Write("Тип док: ");
+                    string DokCode = Console.ReadLine();
+
+                    if (!context.SCharger.Any(c => c.SCCode == KtCode))
+                    {
+                        result = $"Не съществува звено с код {KtCode}";
+                    } 
+                    else if (!context.SDOType.Any(d => d.SDOTCode == DokCode))
+                    {
+                        result = $"Не съществува документ с код {DokCode}";
+                    }
+                    else
+                    {
+                        Serializer.AddKtDotToAllUsers(context, KtCode, DokCode);
+
+                        result = $"Добавени Кт код {KtCode} и {DokCode} към всички потребители в департамент ОТДЕЛЕНИЕ";
+                    }
+                    
+                }
                 Console.WriteLine(result=="" ? "no result" : result);
 
                 log.CreateMessage(result);
@@ -130,7 +192,6 @@
                 Console.WriteLine("Exit Y/N");
                 context.Dispose();
                 command = Console.ReadLine();
-
             } 
         }
     }

@@ -28,6 +28,8 @@ namespace StorKoorespondencii.Data.Models
 
         //public string SULName { get; set; }
 
+        public int SDid { get; set; }
+
         public ICollection<UserPermition> Permitions { get; set; }
     }
 }
